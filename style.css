@@ -1,0 +1,141 @@
+/* Estilo do corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #3481b8;
+    background-image: linear-gradient(to bottom, #4791c7, #7ab6f9, #6890f0, #546bd8, #3e45c1);
+    background-attachment: fixed;
+    color: white;
+}
+
+/* Estilo do cabeçalho */
+.header {
+    background-color: #4961ee;
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo {
+    width: 200px;
+    margin-right: 10px;
+}
+
+.school-name {
+    margin: 0;
+}
+
+.map-icon {
+    color: white;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+/* Estilo do título do cardápio da semana */
+.week-menu-title {
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Estilo do carrossel de cardápios dos dias da semana */
+.carousel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap; /* Usamos wrap para ajustar os elementos em várias linhas */
+    padding: 20px;
+}
+
+.menu-card-link {
+    display: block;
+    text-align: center;
+    margin: 10px;
+    max-width: 300px;
+}
+
+.menu-card img {
+    max-width: 100%;
+}
+
+/* Estilo do conteúdo das páginas individuais de cardápio */
+h1 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    font-size: 18px;
+}
+
+/* Gradiente de azul claro para escuro */
+body {
+    background-color: #8ccfff;
+    background-image: linear-gradient(to bottom, #8ccfff, #7ab6f9, #6890f0, #546bd8, #3e45c1);
+    background-attachment: fixed;
+}
+
+/* Estilo do link de voltar */
+.back-link {
+    display: block;
+    text-align: center;
+    font-size: 18px;
+    margin-top: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+.back-link i {
+    margin-right: 5px;
+}
+//* Estilo do carrossel de cardápios dos dias da semana */
+.carousel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.menu-card-link {
+    display: block;
+    text-align: center;
+    margin: 10px;
+    max-width: 100px; /* Ajuste a largura máxima das imagens aqui */
+    flex-basis: calc(25% - 20px); /* Distribuir igualmente em 4 colunas com espaçamento de 20px */
+    box-sizing: border-box; /* Incluir borda e padding no cálculo do tamanho */
+}
+
+.menu-card img {
+    max-width: 100%;
+    width: 100%; /* Defina a largura das imagens para ocupar todo o espaço disponível */
+    height: auto; /* Manter a proporção de altura */
+    border-radius: 5px; /* Adicionando borda arredondada para melhor aparência */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adicionando sombra para destacar as imagens */
+}
+/* Estilo para o rodapé com créditos */
+.footer {
+    text-align: left;
+    margin: 20px auto;
+}
+
+.footer-content {
+    max-width: 800px;
+    margin: 0 auto;
+    font-size: 14px; /* Tamanho menor para as informações */
+}
+
+.credits {
+    font-weight: bold;
+    margin: 2px 0;
+}
+
+.credits-item {
+    margin: 2px 0;
+}
